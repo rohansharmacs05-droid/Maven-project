@@ -16,6 +16,10 @@ public class AppTest {
 	void testSubtract() {
 		assertEquals(25,app.sub(20,5));
 	}
+	
+	void testMulti() {
+		assertEquals(25,app.mul(20, 5));
+	}
 
     /**
      * Rigorous Test :-)
