@@ -1,0 +1,24 @@
+package com.example.vvce.calculator;
+
+import static org.junit.jupiter.api.Assertions.assertEquals;
+
+import org.junit.jupiter.api.Test;
+
+/**
+ * Unit test for simple App.
+ */
+public class AppTest {
+	App app=new App();
+	void testAdd() {
+		assertEquals(25,app.add(20,5));
+	}
+	
+	void testSubtract() {
+		assertEquals(25,app.sub(20,5));
+	}
+
+    /**
+     * Rigorous Test :-)
+     */
+ 
+}
